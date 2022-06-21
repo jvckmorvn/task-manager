@@ -1,11 +1,12 @@
 class TasksController < ApplicationController
-  before_action :task, only: [:show, :edit, :update, :destroy]
+  before_action :task, only: %i[show edit update destroy]
 
   def index
     @tasks = Task.all
   end
 
   def show
+    @tasks = Task.all
   end
 
   def new
