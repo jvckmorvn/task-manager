@@ -1,5 +1,5 @@
 ## Introduction
-Welcome to this lightweight task manager, built as an exercise in implementing CRUD actions available to end-users.
+Welcome to this lightweight task manager, built as an exercise in implementing CRUD actions for end-users.
 
 ## Ruby versions
 - Ruby '3.0.3'
