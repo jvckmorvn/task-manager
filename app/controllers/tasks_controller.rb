@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class TasksController < ApplicationController
   before_action :task, only: %i[show edit update destroy]
 
@@ -19,8 +21,7 @@ class TasksController < ApplicationController
     redirect_to task_path(@task)
   end
 
-  def edit
-  end
+  def edit; end
 
   def update
     @task.update(task_params)
